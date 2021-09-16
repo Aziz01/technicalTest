@@ -9,6 +9,5 @@ public interface UserDAO {
     public List<User> findAll();
     public Optional<User> findUserById(long id);
     public User save(User user);
-    public default int getvalue(){return 0;}
 
 }

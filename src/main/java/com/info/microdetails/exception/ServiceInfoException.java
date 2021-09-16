@@ -1,6 +1,6 @@
 package com.info.microdetails.exception;
 
-public class ServiceInfoException extends Exception{
+public class ServiceInfoException extends Exception {
 
     private static final long serialVersionUID = 1;
 

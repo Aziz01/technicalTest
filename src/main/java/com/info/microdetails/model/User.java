@@ -6,7 +6,6 @@ import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.Date;
 
 @Entity
 @Table(name = "users")
@@ -61,12 +60,13 @@ public class User {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "User{" +
                 "id=" + id +
-                ", userName ='" + userName + '\'' +
-                ", country=" + countryOfResidence +
+                ", userName='" + userName + '\'' +
+                ", birthDay=" + birthDay +
+                ", countryOfResidence='" + countryOfResidence + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", gender='" + gender + '\'' +
                 '}';
     }
-
-
 }

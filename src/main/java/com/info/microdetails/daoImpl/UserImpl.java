@@ -6,7 +6,6 @@ import com.info.microdetails.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,7 +20,7 @@ public class UserImpl implements UserDAO {
     }
 
     @Override
-    public List<User>findAll() {
+    public List<User> findAll() {
         return userRepository.findAll();
     }
 
